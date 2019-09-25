@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe,
+h1,h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------------------------------------RESET CSS- -------------------------------------------*/
+
+
+@font-face{
+	font-family: 'Assasin';
+	src: url(./font/assassin/Assassin$.ttf);
+	   
+}
+body{
+    background-image: url(./pictures/assasin.jpg);
+    background-repeat: no-repeat;
+	background-position: center; 
+    background-size: cover; 
+    font-family: 'Assasin';
+    font-size: 40px;
+}
+
+div{
+    
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(245, 245, 245, 0.363);
+    padding: 50px;
+    border-radius: 4px;
+}
+
+
+label{
+    position: relative;
+    top:20px;
+}
+
+input[type=text], select{ 
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 50%;
+    background-color: brown;
+    color:white;
+    position: relative;
+    top: 30px;
+    left: 110px;
+    font-family: 'Assasin';
+    padding-top:14px;
+    font-size: 38px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color:brown;
+  }
+
